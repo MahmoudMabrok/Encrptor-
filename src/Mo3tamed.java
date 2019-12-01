@@ -12,8 +12,8 @@ import javafx.stage.Stage;
 
 public class Mo3tamed extends Application {
     String  algoName ;
-    long startTime , endTime  ;
-
+    long startTime;
+    long endTime ; 
     public static void main(String[] args) {
         launch(args);
     }
@@ -92,7 +92,8 @@ public class Mo3tamed extends Application {
     }
 
     public static String  time (long t ){
-        long   m , s  ;
+        long   m ;
+        long s ; 
         s= t/1000 ;
         t%=1000 ;
         m=s/60 ;
