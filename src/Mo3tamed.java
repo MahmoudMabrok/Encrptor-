@@ -40,7 +40,6 @@ public class Mo3tamed extends Application {
         ScrollPane sc2 = new ScrollPane(tC) ;
 
         Label lTime = new Label(  lText) ;
-      //  Label sTime = new Label(  "Start time ") ;
         Label lAlo = new Label(  "") ;
         lAlo.setMinWidth(50);
 
@@ -92,10 +91,9 @@ public class Mo3tamed extends Application {
     }
 
     public static String  time (long t ){
-        long   m ;
+        long  m ;
         long s ; 
-        s= t/1000 ;
-        t%=1000 ;
+        s= (t/1000) % 60  
         m=s/60 ;
         return   m+" minutes "+s+ " seconds . "  ;
     }
