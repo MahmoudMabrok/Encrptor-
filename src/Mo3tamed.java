@@ -1,10 +1,3 @@
-/*
-* Beta Version 1.0
-* 23/11/2017
-*   --  elapsed
-*   --  alert not text
-*
-* */
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -32,9 +25,6 @@ public class Mo3tamed extends Application {
         ComboBox<String > cb = new ComboBox<>(FXCollections.observableArrayList(list)) ;
         cb.setValue("Select an Algorthim ");
         cb.setMinWidth(40);
-
-       /* Button bSelect = new Button("Select ") ;
-        bSelect.setDisable(true);*/
 
         ImageView iv = new ImageView( new Image("Resources/convert.png"));
         Button bConvet = new Button( ""  ) ;
@@ -92,13 +82,6 @@ public class Mo3tamed extends Application {
         primaryStage.setTitle("Encrption With Mo3tamed ");
         primaryStage.show();
     }
-
-    //yourMethodsHere
-    /**
-     *
-     *
-     * @param algo name of algorith
-     */
 
     public static void  youralgoritmhere (String algo  , String input  ) {
 
