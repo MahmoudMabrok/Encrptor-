@@ -9,6 +9,10 @@ import javafx.stage.Stage;
 
 public class Alert {
 
+private Alert (){
+}
+    
+    
 public static  void al (String title ){
 
     Stage st = new Stage() ;
